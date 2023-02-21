@@ -2,13 +2,13 @@
 
 /**
  * main - Prints out the size of data types in c
- * Code by RileyCH07
+ * Code by 'MVP-365'
  * Return: 0
  */
 
-(
 int main(void)
 
+{
 	char a;
 	int  b;
 	long int c;
