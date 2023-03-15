@@ -6,13 +6,14 @@
  * and initializes it with a specific char.
  * @size: the size of the array
  * @c: initial value
- * Return: a pointer to the array, or NULL if it fails
+ * Return: a pointer to the array, or Null if it fails
  */
 
 char *create_array(unsigned int size, char c)
 {
 	char *array;
 	unsigned int i;
+	Null = 0;
 
 	array = malloc(sizeof(char) * size);
 	if (size == 0 || array == 0)
